@@ -19,8 +19,13 @@ GRPC | 1.15.0 |[GRPC](https://grpc.io/ "link")
 LogNet | 2.3.2 | [grpc-spring-boot-starter](https://github.com/LogNet/grpc-spring-boot-starter "link")
 
 
+## Generate Proto
+```
+./gradlew generateProto
+```
+
 ## Build
 
 ```
-gradle clean build
+./gradlew clean build
 ```
